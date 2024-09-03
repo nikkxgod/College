@@ -1,0 +1,68 @@
+object Form1: TForm1
+  Left = 1323
+  Height = 407
+  Top = 103
+  Width = 455
+  Caption = 'Form1'
+  ClientHeight = 407
+  ClientWidth = 455
+  LCLVersion = '3.2.0.0'
+  object Memo1: TMemo
+    Left = 74
+    Height = 64
+    Top = 24
+    Width = 304
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 0
+  end
+  object RadioButton1: TRadioButton
+    Left = 74
+    Height = 19
+    Top = 160
+    Width = 38
+    Caption = 'Куб'
+    TabOrder = 1
+  end
+  object RadioButton2: TRadioButton
+    Left = 74
+    Height = 19
+    Top = 198
+    Width = 200
+    Caption = 'Прямоуольный параллелепипед'
+    TabOrder = 2
+  end
+  object RadioButton3: TRadioButton
+    Left = 74
+    Height = 19
+    Top = 238
+    Width = 138
+    Caption = 'Квадратная пирамида'
+    TabOrder = 3
+  end
+  object RadioButton4: TRadioButton
+    Left = 74
+    Height = 19
+    Top = 278
+    Width = 61
+    Caption = 'Призма'
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 74
+    Height = 15
+    Top = 128
+    Width = 43
+    Caption = 'Фигуры'
+  end
+  object Button1: TButton
+    Left = 203
+    Height = 25
+    Top = 336
+    Width = 75
+    Caption = 'Рассчитать'
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+end
